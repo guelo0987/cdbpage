@@ -1,0 +1,16 @@
+{
+  "name": "cdbpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://guelo0987.github.io/cdbpage/",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
