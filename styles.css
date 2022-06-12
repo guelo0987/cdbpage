@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,700;0,900;1,300;1,400;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:500');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Source Sans Pro",sans-serif;
+}
+
+a:link{
+    text-decoration: none!important;
+}
+
+body{
+    background-color: #f6f6f6;
+   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+/* NAVBAR SECCION */
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #f6f6f6;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    z-index: 999;
+
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+
+
+.menu{
+    list-style: none;
+
+}
+
+.menu li{
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.menu li a{
+    color: #2f2f2f;
+    transition: all 0.3s ease;
+}
+
+.menu li a:hover{
+    color: #ffd481;
+}
+
+.btn-area{
+    padding: 9px 13px;
+}
+
+.btn-area a{
+    color: #2f2f2f;
+}
+
+.btn-area a:hover{
+    color: #2f2f2f;
+}
+
+button{
+    padding: 10px 0;
+    border-radius: 3px!important;
+    background-color: #ffd481;
+    font-family:"Source Sans Pro",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s ease-in;
+    
+}
+
+button a{
+    color: #2f2f2f;
+}
+
+button:active{
+    background-color: #e0b662;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+
+
+button:hover{
+    background-color: #e0b662;
+}
+
+
+.Logo img{
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    
+}
+
+
+.toggle{
+    display: none;
+}
+
+
+
+
+/* MAIN-CONTENT */
+
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    position: relative;
+    top: 250px;
+   
+    
+    
+}
+
+.hero-img{
+    width:100%;
+    height:auto;
+    
+}
+
+.left-content{
+    width: 30%;
+    
+}
+
+.right-content{
+    padding-right: 90px;
+}
+
+
+
+main h1{
+    font-size: 62px;
+    color: #2f2f2f;
+    text-transform: uppercase;
+}
+
+main h2{
+    font-size: 56px;
+    color: #2f2f2f;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+main h2 span{
+    color: #ffd481;
+}
+
+main p{
+    font-size: 16px;
+    font-weight: 800;
+    color: #2f2f2f;
+    line-height: 31.5px;
+    margin: 30px 0;
+   
+}
+
+.Discord-Link{
+    padding: 15px 30px;
+    background-color: #ffd481;
+    color: #2f2f2f;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+   
+    
+}
+
+.Discord-Link a{
+    color: #2f2f2f;
+}
+
+.Discord-Link a:hover{
+    color: #2f2f2f;
+}
+
+
+
+section{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.title{
+    margin-top: 20px;
+    margin-bottom: 28px;
+    width: 100%;
+    text-align: center;
+    color: #2f2f2f;
+}
+
+.title h2{
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.paraph{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 48px;
+}
+
+
+.paraph p{
+    text-align: justify;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+
+.capsule{
+   
+    margin-top: 20px;
+    border-radius: 5px;
+    height: auto;
+}
+
+
+.capsule ul{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.capsule ul li{
+   line-height: 36px;
+   font-size: 15px;
+   
+   
+}
+
+.capsule{
+    background-color: rgba(236,236,236,1);
+    margin-bottom: 50px;
+}
+
+strong{
+    padding: 90px;
+    font-size: 34px;
+    margin-left: 38px;
+}
+
+
+.sign-in{
+    background-color: transparent;
+    position: relative;
+    left: 390px;
+    margin-bottom: 50px;
+    padding: 7px 15px;
+}
+
+.sign-in a{
+    color: #e0b662;
+}
+
+.sign-in:hover{
+    background-color: #2f2f2f;
+}
+
+
+.sign-in a:hover{
+    color: #e0b662;
+}
+
+footer{
+    text-align: center;
+    background-color: #2f2f2f;
+    color: #f6f6f6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE SETTINGS */
+
+@media(max-width:890px){
+
+    main h1{
+        font-size: 50px;
+    }
+
+    main h2{
+        font-size: 40px;
+    }
+
+    button{
+        padding: 10px 10px;
+    }
+
+    .hero-img{
+        width: 144px;
+        height: 200px;
+    }
+    
+    main p{
+        font-size: 13px;
+    }
+
+    .Discord-Link{
+        padding: 9px 11px;
+        font-weight: 400;
+    }
+
+    .Discord-Link a{
+        font-size: 13px;
+    }
+    
+
+    .btn-area{
+        padding: 9px 11px;
+    }
+
+    .Logo img{
+        
+        width: 110px;
+        
+    }
+
+    .sign-in{
+        left: 273px;
+    }
+
+
+}
+
+
+@media(max-width:740px) {
+    .right-content{
+        padding-right:43px ;
+    }
+
+    .Logo img{
+        
+        width: 108px;
+        
+    }
+
+    .sign-in{
+        left: 203px;
+    }
+}
+
+@media (max-width:610px) {
+
+    main h1{
+        font-size: 43px;
+    }
+
+    main h2{
+        font-size: 33px;
+    }
+
+    .hero-img{
+        width: 134px;
+        height: 190px;
+    }
+
+    .right-content{
+        padding-right: 0;
+        margin-left: 30px;
+    }
+
+    main p{
+        font-size: 12px;
+    }
+
+    .btn-area{
+        padding: 2px 8px;
+    }
+
+    .btn-area a{
+        font-size: 13px;
+    }
+
+
+    .menu li{
+        font-size: 13px;
+    }
+
+    .Logo img{
+        
+        width: 97px;
+        
+    }
+
+    section{
+        margin-top: 50px;
+    }
+
+    .sign-in{
+        left: 100px;
+    }
+}
+
+@media (max-width:682px){
+    .sign-in{
+        left: 60px;
+    }
+}
+
+
+@media (max-width:550px) {
+    main{
+        top: 230px;
+        margin-bottom: 140px;
+    }
+
+    .nav-container{
+        margin-right: 10px;
+    }
+    
+    section{
+        margin-top: 50px;
+    }
+
+
+    .hero-img{
+        width: 124px;
+        height: 160px;
+    }
+
+    .right-content{
+        padding-right: 0;
+        margin-right: -17px;
+    }
+
+    main h1{
+        font-size: 35px;
+    }
+
+    main  h2{
+        font-size: 25px;
+    }
+
+    .paraph p{
+        font-size: 13px;
+    }
+
+    .title h2{
+        font-size: 25px;
+    }
+
+    
+
+    .toggle{
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+        position:absolute;
+        right: 10px;
+        top: 29px;
+        margin-right: 9px;
+    }
+
+  .nav-container{
+      flex-direction: column;
+  }
+
+
+  .menu li{
+      display: block;
+      text-align: center;
+      
+    }
+
+   .menu{
+       display: none;
+   }
+
+   .active{
+       display: block;
+   }
+
+  .Logo{
+      position: relative;
+      right: 152px;
+  }
+
+  .capsule ul li{
+    line-height: 36px;
+    font-size: 11px;
+    
+    
+ }
+
+ strong{
+    padding: 20px;
+    font-size: 28px;
+    margin-left: 35px;
+ }
+
+ .sign-in{
+    background-color: transparent;
+    position: relative;
+    left: 71px;
+    margin-bottom: 50px;
+}
+  
+    
+
+
+    
+}
+
+
+
+
+@media (min-height:690px) {
+    section{
+        margin-top: 7px;
+    }
+
+    main{
+        top: 261px;
+        margin-bottom: 0;
+    }
+}
+
+
+
+@media (max-height:920px) {
+    main{
+        top: 250px;
+        margin-bottom: -20px;
+    }
+
+    section{
+        margin-top: -8px;
+    }
+}
+
